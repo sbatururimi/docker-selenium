@@ -26,3 +26,9 @@ javac MyTest.java
 # launch
 java MyTest
 ```
+
+## Additional possibilities:
+By default we setup a grid with  2 nodes. To setuo for example a grid with 2 Chrome nodes and 1 Mozilla node (the default one):
+```
+docker-compose up -d --scale chrome=2
+```

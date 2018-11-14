@@ -10,6 +10,7 @@ services:
     environment:
       - GRID_BROWSER_TIMEOUT=90
       - GRID_TIMEOUT=90
+      - GRID_MAX_SESSION=5
   chrome:
     image: selenium/node-chrome:3.141.5-astatine
     depends_on:
