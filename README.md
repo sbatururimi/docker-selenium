@@ -11,7 +11,10 @@ Install the selenium hub with its nodes:
 ```
 docker-compose up -d
 ```
-
+**NB** To stop your grid:
+```
+docker-compose stop
+```
 ## Step 2
 ```
 # download selenium
