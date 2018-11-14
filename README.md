@@ -32,3 +32,6 @@ By default we setup a grid with  2 nodes. To setuo for example a grid with 2 Chr
 ```
 docker-compose up -d --scale chrome=2
 ```
+
+More info:
+https://github.com/SeleniumHQ/docker-selenium/wiki/Getting-Started-with-Docker-Compose
