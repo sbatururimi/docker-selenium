@@ -1,9 +1,8 @@
 # Instructions
 The recommended way of use is with docker containers.
 
-# Simple mode
 ## Step 1
-Navigate to the simple mode folder:
+Navigate to the `Simple mode` or `Headless mode` folder(steps are same):
 ```
 cd Simple\ mode
 ```
