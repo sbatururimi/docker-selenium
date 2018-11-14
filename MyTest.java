@@ -7,15 +7,12 @@ import java.net.URL;
 
 public class MyTest {
     public static void main(String[] args)throws Exception{
-//    public static void main() throws Exception {
         ChromeOptions chromeOptions = new ChromeOptions();
-        // DesiredCapabilities chromeCapabilities = DesiredCapabilities.chrome();
-        DesiredCapabilities firefoxCapabilities = DesiredCapabilities.firefox();
+        FirefoxOptions firefoxOptions = new FirefoxOptions();
 
-
-        // RemoteWebDriver chrome = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeCapabilities);
+        
         RemoteWebDriver chrome = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
-        RemoteWebDriver firefox = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), firefoxCapabilities);
+        RemoteWebDriver firefox = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), firefoxOptions);
 
         // run against chrome
         chrome.get("https://www.google.com");
