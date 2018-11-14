@@ -17,11 +17,11 @@ public class MyTest {
         RemoteWebDriver firefox = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), firefoxOptions);
 
         // run against chrome
-        chrome.get("https://www.google.com");
+        chrome.get("https://histography.io/");
         System.out.println(chrome.getTitle());
 
         // run against firefox
-        firefox.get("https://www.google.com");
+        firefox.get("https://histography.io/");
         System.out.println(firefox.getTitle());
 
         chrome.quit();
